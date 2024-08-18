@@ -1,21 +1,25 @@
-Unix started back in 1960.
-First version of Unix OS came out in 1971. 
-Bourne shell was born in 1975! 
+# CAP *NIX notes
 
-In the summer of 1991 Linux Torvalds wrote his  first code of today is Linux.  
-In the same year, Richard Stallman   pushed for open source and GNU was born. 
+# brief history
+- Unix started back in 1960.
+- First version of Unix OS came out in 1971. 
+- Bourne shell was born in 1975! 
 
-1993 Slackware (became Suse)
-1993 Few month later Debian. It one of the most purest distributions out there +=> Ubuntu forks 2004 ; Mint in 2005
+- In the summer of 1991 Linux Torvalds wrote his  first code of today is Linux.  
+- In the same year, Richard Stallman   pushed for open source and GNU was born. 
+
+- 1993 Slackware (became Suse)
+- 1993 Few month later Debian. It one of the most purest distributions out there +=> Ubuntu forks 2004 ; Mint in 2005
  
-1995 RedHat till today, is probably the most established Commercial 
-Distribution (free forks/versions exist) - > Fedora (2003), CentOS 
+- 1995 RedHat till today, is probably the most established Commercial 
+- Distribution (free forks/versions exist) - > Fedora (2003), CentOS 
 
-2000 -Gentoo  ->  Chrome OS (2011)
-2002 -> Arch
+- 2000 -Gentoo  ->  Chrome OS (2011)
+- 2002 -> Arch
 
-2013 Firefox Mobile OS 
-2012 Tizen OS -> used in TVs, Fridges, etc.
+- 2013 Firefox Mobile OS 
+- 2012 Tizen OS -> used in TVs, Fridges, etc.
+
 =====================================================
 A little bit about Microsoft
 founded in 1972 as a company
