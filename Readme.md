@@ -58,28 +58,36 @@ $ ls -la
 ```
 
 
-Lets lalk about file system, structure
-/var (here you find logs for wexample)
-/etc (importantant)
-/proc -> this is a virtual filesystem
-/bin
-/sbin
-/boot
-/root
-/usr
-/dev (inportant)
-/home (very important :) )
-/mnt
+### Let's talk about file system and its structure
+If you run the commands above you are in the root (top) of filesystemm. What you see are standard Linux directories. Let's talk about them:
+- /var (here you find logs for example)
+- /etc (important)
+- /proc -> This is a virtual filesystem (run: `cat /proc/cpuinfo`)
+- /bin
+- /bin
+- /boot
+- /root
+- /usr
+- /dev (important)
+- /home (very important :) )
+- /mnt
  ^^^^
-How does this differ from Windows?  no C: D: drives are invisible and seamlesly mounted to FS
+How does this differ from Windows?  You don't see disk letters like in a Windows OS. E.g., C: D: drives are invisible and seamlessly mounted to a file system.
 
 run:
-mount 
-df -h 
-
-du -h (this can be very versose)
+```
+$ mount 
+$ df -h 
+```
+`mount` will print how are directories mounted
+`df` - disk free. This will print different mounts and their utilization.
+`du -h` (this can be very verbose) will show disk utilization (This can be used to find the x biggest files in FS for example)
 
 Let's take a fork in the road and look at file system and privileges for a moment:
+
+
+=====================================================
+#### Users, groups, privileges:
 
 ls - (list) print the content of the (present) directory
       useful flags: (they start with -)
@@ -91,8 +99,6 @@ ls - (list) print the content of the (present) directory
 
 pwd - shows where in the files system you (present working directory)
 
-=====================================================
-Users, groups, privileges:
 cd /home
 ls -la
  what do you see?
