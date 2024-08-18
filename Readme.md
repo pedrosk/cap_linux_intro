@@ -1,4 +1,6 @@
 # CAP *NIX notes
+*** ALWAYS CHANGE YOUR PASSWORD ON A NEW SYSTEM***
+- `passwd` -change your password
 
 ## A brief history
 ### Unix and Linux
@@ -30,22 +32,17 @@
 - 1985 - Windows 1.0 (on top of DOS)
 - 1995 - Windows 95 (Network)
 .....
-## Commands:
+## Privileges, owners, users, and group:
 - `whoaim` - command returns who is logging in
 - `who` - lists who is logged in to the machine (all users)
-- `passwd` -change your password
-  <ul style="list-style-type:none;">
-   <li>-e set expiration</li>
-  <li>-i make inactive</li>
-  <li>-s status</li>
-  </ul>
 
 ### Types of users:
 - regular users that by default have rights only to their own user space /home/<user>
 - specialized system accounts 
 - and root used by the system itself
 
-### Privileges, owners, users, and group
+
+### 
 `cd` - change directory
  - special character `~`  (pronounce: tilda) will get you back to home; <br>
  - NOTE `~` can be used with other programs like cp (copy), mv (move)<br>
@@ -97,7 +94,7 @@ ls - (list) print the content of the (present) directory
       - t sort in time 
       - r reverse (youngest list last)
 
-pwd - shows where in the files system you (present working directory)
+- `pwd` - shows where in the files system you (present working directory)
 
 cd /home
 ls -la
@@ -193,6 +190,13 @@ x: The execute permission.
 
 example: 
 chmod ug+rw,o-x file_name.file_type
+
+- - `passwd` -change your password
+  <ul style="list-style-type:none;">
+   <li>-e set expiration</li>
+  <li>-i make inactive</li>
+  <li>-s status</li>
+  </ul>
 
 
 =============================================
