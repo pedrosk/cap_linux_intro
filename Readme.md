@@ -84,12 +84,12 @@ $ df -h
 ### Users, groups, privileges:
 
 -`ls` - (list) print the content of the (present) directory
-     - useful flags: (they start with -)
-     - -a all (shows hidden files that start on . (dot))
-     - -l (long)
-     - -h human readable
-     - -t sort in time 
-     - -r reverse (youngest list last)
+  - useful flags: (they start with -)
+  - -a all (shows hidden files that start on . (dot))
+  - -l (long)
+  - -h human readable
+  - -t sort in time 
+  - -r reverse (youngest list last)
 
 - `pwd` - shows where in the files system you (present working directory)
 
