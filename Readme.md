@@ -42,7 +42,7 @@
 - and root used by the system itself
 
 
-### 
+### Excercise
 `cd` - change directory
  - special character `~`  (pronounce: tilda) will get you back to home; <br>
  - NOTE `~` can be used with other programs like cp (copy), mv (move)<br>
@@ -80,19 +80,16 @@ $ df -h
 - `df` - disk free. This will print different mounts and their utilization.
 - `du -h` (this can be very verbose) will show disk utilization (This can be used to find the x biggest files in FS for example)
 
-Let's take a fork in the road and look at file system and privileges for a moment:
-
-
 =====================================================
-#### Users, groups, privileges:
+### Users, groups, privileges:
 
-ls - (list) print the content of the (present) directory
-      useful flags: (they start with -)
-      -a all (shows hidden files that start on . (dot))
-      - l (long)
-      - h human readable
-      - t sort in time 
-      - r reverse (youngest list last)
+-`ls` - (list) print the content of the (present) directory
+     - useful flags: (they start with -)
+     - -a all (shows hidden files that start on . (dot))
+     - -l (long)
+     - -h human readable
+     - -t sort in time 
+     - -r reverse (youngest list last)
 
 - `pwd` - shows where in the files system you (present working directory)
 
