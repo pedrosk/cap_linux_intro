@@ -45,20 +45,8 @@
 - specialized system accounts 
 - and root used by the system itself
 
-
-Let's take a fork in the road and look at file system and privileges for a moment:
-
-ls - (list) print the content of the (present) directory
-      useful flags: (they start with -)
-      -a all (shows hidden files that start on . (dot))
-      - l (long)
-      - h human readable
-      - t sort in time 
-      - r reverse (youngest list last)
-
-pwd - shows where in the files system you (present working directory)
-
-cd - change directory
+### Priveleges, owners, users, and group
+`cd` - change directory
       special ~ (tilda) will get you back to home; NOTE ~ can be used with other programs like cp (copy), mv (move)
        cd / will get you to the top of the file system tree called root (don't confuse it it with a root user)
 
@@ -90,6 +78,17 @@ df -h
 
 du -h (this can be very versose)
 
+Let's take a fork in the road and look at file system and privileges for a moment:
+
+ls - (list) print the content of the (present) directory
+      useful flags: (they start with -)
+      -a all (shows hidden files that start on . (dot))
+      - l (long)
+      - h human readable
+      - t sort in time 
+      - r reverse (youngest list last)
+
+pwd - shows where in the files system you (present working directory)
 
 =====================================================
 Users, groups, privileges:
