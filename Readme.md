@@ -32,12 +32,13 @@
 .....
 ## Commands:
 - `whoaim` - command returns who is logging in
-'who' - lists who is logged in to the machine (all users)
+- `who` - lists who is logged in to the machine (all users)
 - `passwd` -change your password
-  there are other options :
-  -e set expiration
-  -i make inactive
-  -s status
+  <ul>
+   <li>-e set expiration</li>
+  <li>-i make inactive</li>
+  <li>-s status</li>
+  </ul>
 
 ### Types of users:
 - regular users that by default have rights only to their own user space /home/<user>
