@@ -51,11 +51,11 @@
  - NOTE `~` can be used with other programs like cp (copy), mv (move)<br>
  - cd `/` (root directory) will get you to the top of the file system tree called root (don't confuse it with a root user)
 
-
-========
 RUN:
-cd /
-ls -la
+```
+$cd /
+$ls -la
+```
 
 
 Lets lalk about file system, structure
