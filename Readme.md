@@ -1,6 +1,7 @@
 # CAP *NIX notes
 
-# A brief history
+## A brief history
+### Unix and Linux
 - Unix started back in 1960.
 - The first version of Unix OS came out in 1971. 
 - Bourne Shell was born in 1975! 
@@ -21,13 +22,13 @@
 - 2012 Tizen OS -> used in TVs, Fridges, etc.
 
 =====================================================
-A little bit about Microsoft
-founded in 1972 as a company
-in 1980, signs a contract with IBM to write an OS
-1981 - PURCHASE of RIGHTS to what becomes MS-DOS
-1983 - First Windows
-1985 - Windows 1.0 (on top of DOS)
-1995 - Windows 95 (Network)
+### A little bit about Microsoft
+- founded in 1972 as a company
+- in 1980, signs a contract with IBM to write an OS
+- 1981 - **PURCHASE** of RIGHTS to what becomes MS-DOS
+- 1983 - First Windows
+- 1985 - Windows 1.0 (on top of DOS)
+- 1995 - Windows 95 (Network)
 .....
 ## Commands:
 `whoaim` - command returns who is logging in
