@@ -79,9 +79,9 @@ run:
 $ mount 
 $ df -h 
 ```
-`mount` will print how are directories mounted
-`df` - disk free. This will print different mounts and their utilization.
-`du -h` (this can be very verbose) will show disk utilization (This can be used to find the x biggest files in FS for example)
+- `mount` will print how directories are mounted
+- `df` - disk free. This will print different mounts and their utilization.
+- `du -h` (this can be very verbose) will show disk utilization (This can be used to find the x biggest files in FS for example)
 
 Let's take a fork in the road and look at file system and privileges for a moment:
 
