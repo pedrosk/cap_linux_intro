@@ -47,8 +47,8 @@
 
 ### Priveleges, owners, users, and group
 `cd` - change directory
-      special ~ (tilda) will get you back to home; NOTE ~ can be used with other programs like cp (copy), mv (move)
-       cd / will get you to the top of the file system tree called root (don't confuse it it with a root user)
+  special ~ (tilda) will get you back to home; <br>NOTE ~ can be used with other programs like cp (copy), mv (move)
+  cd / will get you to the top of the file system tree called root (don't confuse it it with a root user)
 
 
 ========
