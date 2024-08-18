@@ -1,17 +1,17 @@
 # CAP *NIX notes
 
-# brief history
+# A brief history
 - Unix started back in 1960.
-- First version of Unix OS came out in 1971. 
-- Bourne shell was born in 1975! 
+- The first version of Unix OS came out in 1971. 
+- Bourne Shell was born in 1975! 
 
-- In the summer of 1991 Linux Torvalds wrote his  first code of today is Linux.  
-- In the same year, Richard Stallman   pushed for open source and GNU was born. 
+- In the summer of 1991, Linux Torvalds wrote his  first code of today's Linux.  
+- In the same year, Richard Stallman   pushed for open source, and GNU was born. 
 
 - 1993 Slackware (became Suse)
-- 1993 Few month later Debian. It one of the most purest distributions out there +=> Ubuntu forks 2004 ; Mint in 2005
+- 1993 Few months later, Debian. It is one of the most purest distributions out there +=> Ubuntu forks 2004; Mint in 2005
  
-- 1995 RedHat till today, is probably the most established Commercial 
+- 1995 RedHat, till today, is probably the most established Commercial 
 - Distribution (free forks/versions exist) - > Fedora (2003), CentOS 
 
 - 2000 -Gentoo  ->  Chrome OS (2011)
@@ -26,11 +26,10 @@ founded in 1972 as a company
 in 1980, signs a contract with IBM to write an OS
 1981 - PURCHASE of RIGHTS to what becomes MS-DOS
 1983 - First Windows
-1985 - Windows 1.0 (om top of DOS)
+1985 - Windows 1.0 (on top of DOS)
 1995 - Windows 95 (Network)
 .....
-
-Commands:
+## Commands:
 `whoaim` - command returns who is logging in
 'who' - lists who is logged in to the machine (all users)
 `passwd` -change your password
@@ -39,10 +38,10 @@ e set expiration
 i make inactive
 s status
 
-types of users:
--regular user that by default have rights only to their own user space /home/<user>
- specialized system accounts 
-and root used by the system itself
+### Types of users:
+- regular users that by default have rights only to their own user space /home/<user>
+- specialized system accounts 
+- and root used by the system itself
 
 
 Let's take a fork in the road and look at file system and privileges for a moment:
