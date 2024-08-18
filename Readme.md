@@ -91,7 +91,8 @@ $ df -h
   - -t sort in time 
   - -r reverse (youngest list last)
 
-- `pwd` - shows where in the files system you (present working directory)
+
+`pwd` - shows where in the files system you (present working directory)
 
 cd /home
 ls -la
