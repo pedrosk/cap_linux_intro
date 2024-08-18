@@ -31,13 +31,13 @@
 - 1995 - Windows 95 (Network)
 .....
 ## Commands:
-`whoaim` - command returns who is logging in
+- `whoaim` - command returns who is logging in
 'who' - lists who is logged in to the machine (all users)
-`passwd` -change your password
+- `passwd` -change your password
 there are other options :
-e set expiration
-i make inactive
-s status
+  \-e set expiration
+   \-i make inactive
+   \-s status
 
 ### Types of users:
 - regular users that by default have rights only to their own user space /home/<user>
