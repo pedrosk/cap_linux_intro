@@ -53,8 +53,8 @@
 
 RUN:
 ```
-$cd /
-$ls -la
+$ cd /
+$ ls -la
 ```
 
 
