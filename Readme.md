@@ -254,7 +254,7 @@ The operating system starts up as process `1` All system processes will have par
  -f full list
  -e everything
  Most commonly used:
- `ps -ef` or `ps aux` 
+ `ps -ef` or `ps aux` <br>
 `kill -l`
 ```
  **1) SIGHUP**	 2) SIGINT	 3) SIGQUIT	 4) SIGILL	 **5) SIGTRAP**
