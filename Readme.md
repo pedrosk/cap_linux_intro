@@ -138,22 +138,23 @@ What are logs usually set to? (Why are we interested in log?)<br>
 HINT run: `ls -la /var/log |grep -i log`
 
 
-==========================================
-How do you create a user?
-there is useradd and adduser. 
-whats the difference? +> userfriendlines. adduser is a script using useradd. 
-useradd uses flags where you can or have to add home directory, etc.
-adduser will prompt for questiions and will create the most commonly used feature like a home directory
+### User management 
+#### How do you create a user?
+There are two commands: `useradd` and `adduser`.<br> 
+Whats the difference between them?  User friendlines. `adduser` is a script using `useradd`. <br>
+`useradd` uses flags where you can or have to add a home directory, etc.
+`adduser` will prompt questions and will create the most commonly used feature, like a home directory
 
 When to us each....
 
-How to add user to a specific group?
-sudo usermod -a -G examplegroup exampleusername
+#### How to add a user to a specific group?
+`sudo usermod -a -G examplegroup exampleusername`
 
-To create a new group:
-sudo sudo groupadd new_group
+#### How to create a new group:
+`sudo sudo groupadd new_group`
 
-=========================================
+
+========================================= <br>
 back to files, directories and modifying who can do what
 assign or modify group and user ownship 
 use chown command
