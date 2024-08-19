@@ -202,7 +202,7 @@ Example:
 `chmod ug+rw,o-x file_name.file_type`
 
 ### Mode details on administering user passowrds
-- `passwd` -change password
+`passwd` -change password
   <ul style="list-style-type:none;">
    <li>-e set expiration</li>
   <li>-i make inactive</li>
