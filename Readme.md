@@ -106,11 +106,11 @@ drwxr-x--- 41 ed    ed    4096 Aug 18 12:23 ed
 What is this, and why is it important?
 
 After the first letter are three groups consisting of three lettered positions:
-Fist three: 
+- Fist three: 
     - owner – Owner permissions apply ONLY to the file or directory owner. 
-Second three: 
+- Second three: 
     - group - The Group permissions apply ONLY to the group (grouped have members) that has been assigned to the file or directory.
-Last three:
+- Last three:
     - all users – All users' permissions apply to all other users on the system; this is the permission group that you want to watch.
 
 Permissions explained: 
