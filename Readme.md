@@ -147,7 +147,7 @@ Whats the difference between them?  User friendlines. `adduser` is a script usin
 
 When to us each....
 
-#### How to add a user to a specific group?
+#### How do I add a user to a specific group?
 `sudo usermod -a -G examplegroup exampleusername`
 
 #### How to create a new group:
@@ -155,23 +155,22 @@ When to us each....
 
 
 ========================================= <br>
-back to files, directories and modifying who can do what
-assign or modify group and user ownship 
-use chown command
-two usages when setting / changing ownership for both user:groups
-
-chown user:group <Whats_is_being_modified> 
+### Setting, and modifying Ownership:
+#### Assign or modify group and user ownship 
+use `chown` command to set/change ownership for both `user:groups`<br>
+Usage:
+`chown user:group <Whats_is_being_modified>` 
 NOTE: You need proper privileges
 
-just user and file:  
-chown user some.file
+#### Modify only the user and file:  
+`chown user some.file`
 
-just group:
-chown :group1 some.file
+#### Modify only the  group:
+`chown :group1 some.file`
 
-how about to change ownership of subdirectiries and files?
-chown -R someuser:somegroup *.some_extention
-
+#### How about changing ownership of subdirectories and files?
+`chown -R someuser:somegroup *.some_extention`
+flag `-r ` is for recursiveness
 =======================================
 Similarly, you can change who can do what with files both on user, owner, and group levels. Use command:
  chmod permission files
