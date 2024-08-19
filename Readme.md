@@ -201,8 +201,8 @@ or you can add, sustract priviledes using letters:
 Example: 
 `chmod ug+rw,o-x file_name.file_type`
 
-### mode details on administering user passowrds
-- - `passwd` -change password
+### Mode details on administering user passowrds
+- `passwd` -change password
   <ul style="list-style-type:none;">
    <li>-e set expiration</li>
   <li>-i make inactive</li>
