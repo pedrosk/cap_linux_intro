@@ -115,24 +115,26 @@ After the first letter are three groups consisting of three lettered positions:
 
 #### Permissions explained: 
 Why letters:  It's easier to read than remember the combination of numbers.
-- -r read – The Read permission refers to a user’s capability to read the contents of the file. (and nothing else !)
+- -r read – The Read permission refers to a user’s capability to read the file's contents. (and nothing else !)
 - -w write – The Write permissions refer to a user’s capability to write or modify a file or directory. (OR DIRECTORY)
 - -e execute – Execute permission affects a user’s capability to execute a file or view the contents of a directory. ( OR DIRECTORY)
 
-Each letter has a numerical value that when added together, expresses the permission:
+Each letter has a numerical value that, when added together, expresses the permission:
 - r = 4
 - w = 2
 - x = 1
-so what is 755? or 600?
-7= 4+2+1 Owner Can do EVERYTHING
-5 = group can 4+1 => Read and Execute. Can NOT modify the files!
-5= everyone else same as above 
-
+- 
+So what is 755? or 600?<be>
+- 7= 4+2+1 **The Owner** Can do EVERYTHING (read, write and execute)
+- 5 = 4+1 **The group** can Read and Execute. Can NOT modify the files!
+- 5= 4+1 **Everyone else**, same as above 
+<br>
 700 => ONLY OWNER CAN do EVERYTHING. Everyone ELSE can do NOTHING. NOT EVEN THE MEMBERS OF THE GROUP can do anything
- 
+<br> 
 600 =>  you tell me!
 
-What are logs usually set to? 
+A question worth asking yourself:<br>
+What are logs usually set to? (Why are we interested in log?)<br>
 HINT run: `ls -la /var/log |grep -i log`
 
 
