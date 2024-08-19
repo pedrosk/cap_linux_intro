@@ -270,7 +270,8 @@ The operating system starts up as process `1` All system processes will have par
 53) SIGRTMAX-11	54) SIGRTMAX-10	55) SIGRTMAX-9	56) SIGRTMAX-8	57) SIGRTMAX-7
 58) SIGRTMAX-6	59) SIGRTMAX-5	60) SIGRTMAX-4	61) SIGRTMAX-3	62) SIGRTMAX-2
 </quote>
- `kill` command  can manually stop a process.
+
+`kill` command  can manually stop a process.
  
- `killall` will kill all the processes related to the the command. 
+`killall` will kill all the processes related to the the command. 
 
