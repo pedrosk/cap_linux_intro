@@ -94,19 +94,24 @@ First let's print the content of the present directory:<br>
 
 `pwd` - shows where in the files system you (present working directory)
 
+Run:
+```
 cd /home
 ls -la
- what do you see?
+```
+What do you see? Do you see something like this?
+```
 drwxr-x--- 41 ed    ed    4096 Aug 18 12:23 ed
-What is this and why is it important?
+```
+What is this, and why is it important?
 
-after the first letter are three groups consisting of three lettered possitions:
+After the first letter are three groups consisting of three lettered positions:
 Fist three: 
-     owner – Owner permissions apply ONLY  to the owner of the file or directory. 
+    - owner – Owner permissions apply ONLY to the file or directory owner. 
 Second three: 
-    group – The Group permissions apply ONLY to the  group (groupd have members) that has been assigned to the file or directory.
+    - group - The Group permissions apply ONLY to the group (grouped have members) that has been assigned to the file or directory.
 Last three:
-    all users – The All Users permissions apply to all other users on the system, this is the permission group that you want to watch.
+    - all users – All users' permissions apply to all other users on the system; this is the permission group that you want to watch.
 
 Permissions explained: 
 Why letters:  Its easier to read than remember the combination of numbers.
