@@ -169,36 +169,40 @@ NOTE: You need proper privileges
 `chown :group1 some.file`
 
 #### How about changing ownership of subdirectories and files? <br>
+`chown -R someuser:somegroup *.some_extention` 
 
-`chown -R someuser:somegroup *.some_extention`
-flag `-r ` is for recursiveness
+flag `-r` is used for recursivness.
+
 =======================================
-Similarly, you can change who can do what with files both on user, owner, and group levels. Use command:
- chmod permission files
-example chmod 755 my_executable.script
+### Setting and modifying file permissions:
 
+Similarly, you can change who can do what with files both on user, owner, and group levels. Use command:
+` chmod permission file(s)`
+Example: ` chmod 755 my_executable.script`
+<br>
 or you can add, sustract priviledes using letters:
 
-who =>
-u: User, e.g. owner of the file.
-g: Group
-o: Others
-a: All, meaning all of the above.
+**who =>**
+- u: User, e.g. owner of the file.
+- g: Group
+- o: Others
+- a: All, meaning all of the above.
 
-Action on permissions:
--: Minus sign. Removes the permission.
-+: Plus sign. Grants the  permission.
-=: Equals sign. SET  permission! This will REMOVE other permissions.
+**Action on permissions:**
+- -: Minus sign. Removes the permission.
+- +: Plus sign. Grants the  permission.
+- =: Equals sign. SET  permission! This will REMOVE other permissions.
 
-The "which " permissions:
-r: The read permission.
-w: The write permission.
-x: The execute permission.
+**The "which " permissions:**
+- r: The read permission.
+- w: The write permission.
+- x: The execute permission.
+<br>
+Example: 
+`chmod ug+rw,o-x file_name.file_type`
 
-example: 
-chmod ug+rw,o-x file_name.file_type
-
-- - `passwd` -change your password
+### mode details on administering user passowrds
+- - `passwd` -change password
   <ul style="list-style-type:none;">
    <li>-e set expiration</li>
   <li>-i make inactive</li>
@@ -207,31 +211,35 @@ chmod ug+rw,o-x file_name.file_type
 
 
 =============================================
-what can we do with file
-cp (copy)
-mv (move)
-rm (remove - delete)
-touch - create an empty file
-and more
-cat - print whats inside a file
+### Commands related to files:
+what can we do with the file?
+- `cp` (copy)
+- `mv` (move)
+- `rm` (remove - delete)
+- `touch` - create an empty file
+and more. (in fact there is `more` and `less` command as well :) )
+- `cat` - print whats inside a file
 
 ================================================
-other useful tools:
-grep - will search for a pattern in files
-r recursively, meaning it will go  down into subdirectories
-         -i will ignore the case:
-            Example: grep -r -i error * 
+### Some other useful tools:
+`grep` - will search for a pattern in files
+ - -r recursively, meaning it will go  down into subdirectories
+ - -i will ignore the case: <br>
+
+Example: `grep -r -i error * `
                   will find: error, Error, ERROR, ErRoR, etc
 
 find -> `find [path] [options] [expression]` 
--name pattern
- -f file
--d directories
-Example: find ~ -name "example.txt"
-find ./ -type f -name "*.txt"
+- -name pattern
+-  -f file
+- -d directories
+Example: <br>
+`find ~ -name "example.txt"` <br>
+`find ./ -type f -name "*.txt"`
 
-Find a subdirectory called cap
+Example to find a subdirectory called `cap` we would run it like this<br>
+`find / -type d -name cap`
+
 NOTE: The directory to start from is root / 
            type is set to the directory 
            and search is for something called "cap"
-find / -type d -name cap
