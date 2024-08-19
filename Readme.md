@@ -113,15 +113,16 @@ After the first letter are three groups consisting of three lettered positions:
 - Last three:
     - all users – All users' permissions apply to all other users on the system; this is the permission group that you want to watch.
 
-Permissions explained: 
-Why letters:  Its easier to read than remember the combination of numbers.
-read – The Read permission refers to a user’s capability to read the contents of the file. (and nothing else !)
-write – The Write permissions refer to a user’s capability to write or modify a file or directory. (OR DIRECTORY)
-execute – The Execute permission affects a user’s capability to execute a file or view the contents of a directory. ( OR DIRECTORY)
+#### Permissions explained: 
+Why letters:  It's easier to read than remember the combination of numbers.
+- -r read – The Read permission refers to a user’s capability to read the contents of the file. (and nothing else !)
+- -w write – The Write permissions refer to a user’s capability to write or modify a file or directory. (OR DIRECTORY)
+- -e execute – Execute permission affects a user’s capability to execute a file or view the contents of a directory. ( OR DIRECTORY)
 
-r = 4
-w = 2
-x = 1
+Each letter has a numerical value that when added together, expresses the permission:
+- r = 4
+- w = 2
+- x = 1
 so what is 755? or 600?
 7= 4+2+1 Owner Can do EVERYTHING
 5 = group can 4+1 => Read and Execute. Can NOT modify the files!
