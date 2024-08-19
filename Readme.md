@@ -34,8 +34,12 @@
 - 1983 - First Windows
 - 1985 - Windows 1.0 (on top of DOS)
 - 1995 - Windows 95 (Network)
+
+  <br>
+
+  To run multiple operating systems at once, install `https://www.virtualbox.org/`. Then, you can install a full OS instance and run them simultaneously. It is even possible to emulate an entire network of computers if your host machine has enough resources (RAM +CPU  + DISK space). Remember, you may need to install the addition after you install the OS to expand the VB capabilities. 
 .....
-## Privileges, owners, users, and group:
+## Privileges, owners, users, and groups:
 - `whoaim` - command returns who is logging in
 - `who` - lists who is logged in to the machine (all users)
 
