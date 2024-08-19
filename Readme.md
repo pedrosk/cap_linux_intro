@@ -141,7 +141,7 @@ HINT run: `ls -la /var/log |grep -i log`
 ### User management 
 #### How do you create a user?
 There are two commands: `useradd` and `adduser`.<br> 
-Whats the difference between them?  User friendlines. `adduser` is a script using `useradd`. <br>
+What's the difference between them?  User friendlines. `adduser` is a script using `useradd`. <br>
 `useradd` uses flags where you can or have to add a home directory, etc.
 `adduser` will prompt questions and will create the most commonly used feature, like a home directory
 
@@ -168,7 +168,8 @@ NOTE: You need proper privileges
 #### Modify only the  group:
 `chown :group1 some.file`
 
-#### How about changing ownership of subdirectories and files?
+#### How about changing ownership of subdirectories and files? <br>
+
 `chown -R someuser:somegroup *.some_extention`
 flag `-r ` is for recursiveness
 =======================================
