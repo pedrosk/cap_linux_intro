@@ -83,7 +83,7 @@ $ df -h
 =====================================================
 ### Users, groups, privileges:
 First let's print the content of the present directory:<br>
--`ls` - (list) print the content of the (present) directory
+`ls` - (list) print the content of the (present) directory
   - useful flags: (they start with -)
   - -a all (shows hidden files that start on . (dot))
   - -l (long)
