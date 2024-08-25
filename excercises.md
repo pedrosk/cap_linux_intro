@@ -91,6 +91,26 @@ Result: uid=3000(mouse) gid=3000(mouse) groups=3000(mouse),1003(micky),3001(mice
 Now as user  `mouse` run: `ls -la /home/micky/`
 
 ### file privilege exercise:
+First, let's change the file my.file as follows: The owner (Micky) can READ, WRITE, and execute, the group can only read and execute, and others can do nothing. 
+As your main user run: `sudo chmod 750 /home/micky/my.file` 
+Now log in as mouse and try to write to the file:
+`echo "my message" >>  /home/micky/my.file`
+
+You will get the permission denied. 
+
+Extra exercise:
+As the primary user change the owner and the permission of the file to group mice and file permission owner everything, group everything, and other nothing
+1) `sudo chown micky:mice /home/micky/my.file`
+2) `sudo chmod 770 /home/micky/my.file`
+
+Log back in as `mouse` into the `bash` session and try to write to the file `my.file` in Micky's home. 
+No error?
+Remember, this used to be an empty file. Is it still empty? Let's check:
+Run `cat /home/micky/my.file`
+
+Why did this work? 
+Because `mouse` while living in `forest` is a member of the `mice` group that can read, write, and execute on this file. (not any other files).
+
 
 
 
