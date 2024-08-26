@@ -41,6 +41,8 @@ List the directory with file privileges:<br>
 You should see the file that you just created. Take note of the privileges for user, group and others:<br>
 Example: `-rw-rw-r-- 1 micky micky    0 Aug 25 17:46 my.file`
 
+Let go back to your sudo enabled user and run: `sudo chmod 770 /home/micky` to set more restrictive access privileges to Micky's home directory.
+
 Now, change use to `mouse` (HINT: use `su - mouse` as above)<br>
 After you log in run `bash` so your shell becomes `bash`
 
