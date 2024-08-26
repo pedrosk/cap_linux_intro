@@ -1,21 +1,21 @@
 Hello world
-How to go to home directory: re member home is the special character called "tilda" `~`
+How to go to home directory: re member home is the special character called "tilda" `~` <br>
 `cd ~`
-
-What is in my home directory?
+<br>
+What is in my home directory?<br>
 `ls -la`
-
-Where am I on the tree of the filesystem? 
-`pwd`
+<br>
+Where am I on the tree of the filesystem?  <br>
+`pwd`<br>
 
 ### Exercise:
-Let's create a user "micky" and a user "mouse". 
-To accomplish this, you need to have elevated privileges, and thus must be run as a root user or with a `sudo`
-Run: 
-`sudo adduser micky` set password `ILoveMicky13!` . Do you think this is a strong password? How would you improve it?
-Let's check what is the UID (unique ID), group ID (GUID), and to what groupd of the user `micky` belongs:
-Run: `id micky`
-You may get a response similar to this: ` uid=1003(micky) gid=1003(micky) groups=1003(micky)`
+Let's create a user "micky" and a user "mouse". <br>
+To accomplish this, you need to have elevated privileges, and thus must be run as a root user or with a `sudo`<br>
+Run: <br>
+`sudo adduser micky` set password `ILoveMicky13!` . Do you think this is a strong password? How would you improve it? <br>
+Let's check what is the UID (unique ID), group ID (GUID), and to what groupd of the user `micky` belongs:<br>
+Run: `id micky`<br>
+You may get a response similar to this: ` uid=1003(micky) gid=1003(micky) groups=1003(micky)`<br>
 
 udo passwd  mouse
 Next, let's use the original `useradd` command tpo create user `mouse`
