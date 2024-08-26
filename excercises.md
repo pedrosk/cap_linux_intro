@@ -69,7 +69,7 @@ There is two ways to achieve it:
    Run: `cat /etc/group |grep -i mice`
    HINT: run the above command to see all the groups and their IDs
 
-COOL HINT: So that you do not have to always come back to the sudo enabled user, you could add the ser `mouse` to the sudo group. The instruction here wants to to be safe and not give `mouse` or `micky` higher privileges than they should have. But if would need to give a user `sudo` group membership its done by running: 
+COOL HINT: So that you do not have to always come back to the sudo enabled user, you could add the ser `mouse` to the sudo group. The instruction here wants to to be safe and not give `mouse` or `micky` higher privileges  they should have. But if would need to give a user `sudo` group membership its done by running: 
 `sudo adduser <user> sudo`<br>
 Example: `sudo adduser mouse sudo`
 
@@ -84,7 +84,7 @@ Now check if `micky` is a member of `mice` group:<br>
 
 Next, repeat the same for user `mouse`.
 
-Let's try again `su - mouse` than run `bash`  and run `ls -la /home/micky/`<br>
+Let's try again `su - mouse` then run `bash`  and run `ls -la /home/micky/`<br>
 Loks like still no luck: `ls: cannot open directory '/home/micky/': Permission denied`<br>
 Hint answer is: `ls -la /home`<br>
 Solution: add `mouse` to group `micky`.<br>
