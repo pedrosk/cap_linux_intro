@@ -66,7 +66,7 @@ Now let's check on the new group `mice`
 There is two ways to achieve it:
 1) `getent group mice`
 2) it to `cat` the `group` file in the `/etc` directory and use `grep` to filer for mice
-   Run: `cat /etc/roup |grep -i mice`
+   Run: `cat /etc/group |grep -i mice`
    HINT: run the above command to see all the groups and their IDs
 
 COOL HINT: So that you do not have to always come back to the sudo enabled user, you could add the ser `mouse` to the sudo group. The instruction here wants to to be safe and not give `mouse` or `micky` higher privileges than they should have. But if would need to give a user `sudo` group membership its done by running: 
