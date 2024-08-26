@@ -18,8 +18,8 @@ Let's check what is the UID (unique ID), group ID (GUID), and to what groupd of 
 Run: `id micky`<br>
 You may get a response similar to this: ` uid=1003(micky) gid=1003(micky) groups=1003(micky)`<br>
 
-Next, let's use the original `useradd` command tpo create user `mouse`<br>
-Here lets make the home `\home\forest` and ID `3000`<br>
+Next, let's use the original `useradd` command to create user `mouse`<br>
+Here lets make the home `/home/forest` and ID `3000`<br>
 Run: `useradd -m -d \home\forest -u 3000 mouse`<br>
 NOTE: you need the flag `-m` or the directory will be set but not created
 
@@ -31,23 +31,23 @@ If you get: `passwd: password updated successfully` Then the password WAS create
 passwd: Authentication token manipulation error
 passwd: password unchanged
 ```
-You had a typo, and the password was NOT created.
+You had a typo when you re-typed the password, and the password was NOT created.
 
 Next, log is as `micky` and create an empty file `my.file`<br>
-`su -i micky`<br>
+`su - micky`<br>
 `touch my.file`<br>
 List the directory with file privileges:<br>
 `ls -la`<br>
-You should see amongst file your file that you just created. Take a note of the privileges for user, group and others:<br>
-`-rw-rw-r-- 1 micky micky    0 Aug 25 17:46 my.file`
+You should see the file that you just created. Take note of the privileges for user, group and others:<br>
+Example: `-rw-rw-r-- 1 micky micky    0 Aug 25 17:46 my.file`
 
-Now, change use to `mouse` (HINT: use su - as above)<br>
+Now, change use to `mouse` (HINT: use `su - mouse` as above)<br>
 After you log in run `bash` so your shell becomes `bash`
 
 List/print the content of user `micky` home directory:<br>
 HINT: run `pwd`<br>
 you get ...?<br>
-than run `ls -la /home`<br>
+then run `ls -la /home`<br>
 
 OK, run: `ls -la ../micky/`<br>
 so you got this: `ls: cannot open directory '../micky/': Permission denied`<br>
